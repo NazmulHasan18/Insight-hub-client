@@ -1,4 +1,4 @@
-import { Col, Container, Nav, Row } from "react-bootstrap";
+import { Badge, Col, Container, Nav, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -9,19 +9,23 @@ const Footer = () => {
                <Col className="py-3">
                   <Container>
                      <h1>Insight Hub</h1>
-                     <Nav defaultActiveKey="/home" className="flex-column text-decoration-none px-5 py-3">
+                     <Nav
+                        defaultActiveKey="/home"
+                        className="flex-column text-decoration-none px-5 py-3 lh-lg"
+                     >
                         <Link className="text-light" href="/home">
-                           Active
+                           News Feed
                         </Link>
                         <Link className="text-light" href="/">
-                           Link
+                           Event{" "}
+                           <Badge bg="warning" text="dark">
+                              new
+                           </Badge>
                         </Link>
                         <Link className="text-light" href="/">
-                           Link
+                           Jobs
                         </Link>
-                        <Link className="text-light" href="/">
-                           Disabled
-                        </Link>
+                        <Link className="text-light" href="/"></Link>
                      </Nav>
                   </Container>
                </Col>
