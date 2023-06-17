@@ -2,9 +2,9 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import moment from "moment";
 import PageTitle from "../Shared/PageTItle/PageTitle";
-import HPEventCard from "./HPEventCard";
 import { Link } from "react-router-dom";
 import HPNewsFeed from "./HPNewsFeed";
+import HPEventCard from "./HPEventCard";
 import HPJobCard from "./HPJobCard";
 
 const Home = () => {
@@ -20,25 +20,29 @@ const Home = () => {
             setNewses(data);
             setLoading(false);
          });
+   }, []);
+
+   useEffect(() => {
       fetch("/events.json")
          .then((res) => res.json())
          .then((data) => {
             setEvents(data);
-            setLoading(false);
          });
+   }, []);
+
+   useEffect(() => {
       fetch("/jobs.json")
          .then((res) => res.json())
          .then((data) => {
             setJobs(data);
-            setLoading(false);
          });
    }, []);
 
    return (
       <Container>
-         <PageTitle title={"News Feed"}></PageTitle>
-         <Row>
-            <Col className="d-none d-md-block my-2 bg-white py-2 rounded" lg={3}>
+         <PageTitle title={"Feature Blogs"}></PageTitle>
+         <Row className="">
+            <Col className="my-2 bg-white py-2 rounded order-sm-2 order-lg-1" sm={6} lg={3} id="events">
                <h2 className="fs-4 fw-bold text-center">Events</h2>
                <div className="border p-3">
                   {events
@@ -58,7 +62,7 @@ const Home = () => {
                   </Link>
                </div>
             </Col>
-            <Col md={8} lg={6} className="py-5 m-2 rounded bg-white">
+            <Col md={8} lg={6} className="py-5 rounded bg-white order-sm-1 order-lg-2" id="news">
                {newses
                   .sort((a, b) => {
                      const dateA = moment(`${a.postDate} ${a.postTime}`, "YYYY-MM-DD h:mm A");
@@ -70,13 +74,13 @@ const Home = () => {
                      <HPNewsFeed key={news._id} news={news} loading={loading}></HPNewsFeed>
                   ))}
             </Col>
-            <Col className="d-none d-lg-block bg-white rounded my-2">
+            <Col className="bg-white rounded py-2 my-2 order-sm-3 order-lg-3" id="jobs" sm={6} lg={3}>
                <h2 className="fs-4 fw-bold text-center">Jobs</h2>
                <div className="border p-3">
                   {jobs
                      .sort((a, b) => {
                         const dateA = moment(`${a.deadline} `, "YYYY-MM-DD h:mm A");
-                        const dateB = moment(`${b.date} `, "YYYY-MM-DD h:mm A");
+                        const dateB = moment(`${b.deadline} `, "YYYY-MM-DD h:mm A");
                         return dateB - dateA;
                      })
                      .slice(0, 6)

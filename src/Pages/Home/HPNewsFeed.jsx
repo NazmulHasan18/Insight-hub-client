@@ -22,7 +22,7 @@ const HPNewsFeed = ({ news, loading }) => {
       );
    }
    return (
-      <Card className="mb-4 rounded-0">
+      <Card className="mb-4 rounded-0" id={`${news._id}`}>
          <Card.Header className="d-flex gap-3 align-items-center">
             <Image
                src="https://i.ibb.co/7XxhLwj/P3-OLGJ1-copy-1.png"
@@ -41,8 +41,8 @@ const HPNewsFeed = ({ news, loading }) => {
          </Card.Header>
          <Card.Img variant="top" src="https://i.ibb.co/g3TCrSg/class1.jpg" className="rounded-0" />
          <Card.Body>
+            <h4>{news?.title} </h4>
             <Card.Text className="fs-5">
-               <h4>{news?.title} </h4>
                {news?.description} <a href={news?.link}>More...</a>
             </Card.Text>
          </Card.Body>

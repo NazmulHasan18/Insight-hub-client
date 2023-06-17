@@ -1,72 +1,152 @@
 [
    {
-      "_id": "60c5d28e7b17e42e7c44a7d1",
-      "title": "Exciting New Discoveries in Technology",
-      "description": "Scientists make groundbreaking advancements in artificial intelligence and robotics.",
-      "image": "https://example.com/news/image1.jpg",
-      "link": "https://example.com/news/article1",
-      "author": {
-         "name": "John Doe",
-         "image": "https://example.com/authors/john_doe.jpg"
-      },
-      "postDate": "2023-06-15",
-      "postTime": "09:30 AM",
-      "views": 1500
-   },
-   {
-      "_id": "60c5d28e7b17e42e7c44a7d2",
-      "title": "Healthy Living Tips for a Balanced Lifestyle",
-      "description": "Explore simple and effective ways to improve your overall well-being.",
-      "image": "https://example.com/news/image2.jpg",
-      "link": "https://example.com/news/article2",
-      "author": {
-         "name": "Jane Smith",
-         "image": "https://example.com/authors/jane_smith.jpg"
-      },
-      "postDate": "2023-06-14",
-      "postTime": "02:45 PM",
-      "views": 2500
-   },
-   {
       "_id": "60c5d28e7b17e42e7c44a7d3",
       "title": "Fashion Trends for the Upcoming Season",
       "description": "Stay ahead in style with the latest fashion trends and tips from industry experts.",
-      "image": "https://example.com/news/image3.jpg",
+      "image": "https://i.ibb.co/g3TCrSg/class1.jpg",
       "link": "https://example.com/news/article3",
       "author": {
          "name": "Alex Johnson",
          "image": "https://example.com/authors/alex_johnson.jpg"
       },
+      "category": "Fashion",
       "postDate": "2023-06-13",
       "postTime": "11:15 AM",
       "views": 3500
    },
    {
       "_id": "60c5d28e7b17e42e7c44a7d4",
-      "title": "Breaking News: Climate Change Summit Announced",
-      "description": "Global leaders to gather for a crucial summit addressing climate change issues.",
-      "image": "https://example.com/news/image4.jpg",
+      "title": "Exploring the Wonders of Nature",
+      "description": "Immerse yourself in the beauty of nature with breathtaking landscapes and wildlife encounters.",
+      "image": "https://i.ibb.co/f1ZsBBr/nature1.jpg",
       "link": "https://example.com/news/article4",
       "author": {
-         "name": "Emily Davis",
-         "image": "https://example.com/authors/emily_davis.jpg"
+         "name": "Emily Adams",
+         "image": "https://example.com/authors/emily_adams.jpg"
       },
-      "postDate": "2023-06-12",
-      "postTime": "04:20 PM",
-      "views": 4500
+      "category": "Travel",
+      "postDate": "2023-06-15",
+      "postTime": "09:30 AM",
+      "views": 2400
    },
    {
       "_id": "60c5d28e7b17e42e7c44a7d5",
-      "title": "Exploring the Benefits of Meditation",
-      "description": "Discover the positive impact of meditation on mental health and overall well-being.",
-      "image": "https://example.com/news/image5.jpg",
+      "title": "Delicious Summer Recipes to Try",
+      "description": "Savor the flavors of summer with these mouthwatering and refreshing recipe ideas.",
+      "image": "https://i.ibb.co/6r2qqKX/food1.jpg",
       "link": "https://example.com/news/article5",
       "author": {
-         "name": "Mark Thompson",
-         "image": "https://example.com/authors/mark_thompson.jpg"
+         "name": "Sophia Carter",
+         "image": "https://example.com/authors/sophia_carter.jpg"
       },
-      "postDate": "2023-06-14",
-      "postTime": "08:00 AM",
-      "views": 5500
+      "category": "Food & Cooking",
+      "postDate": "2023-06-18",
+      "postTime": "02:45 PM",
+      "views": 1200
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d6",
+      "title": "The Importance of Self-Care for Mental Wellbeing",
+      "description": "Discover effective self-care practices to enhance your mental health and overall wellbeing.",
+      "image": "https://i.ibb.co/P1w2Vhx/wellness1.jpg",
+      "link": "https://example.com/news/article6",
+      "author": {
+         "name": "Olivia Anderson",
+         "image": "https://example.com/authors/olivia_anderson.jpg"
+      },
+      "category": "Wellness",
+      "postDate": "2023-06-20",
+      "postTime": "10:00 AM",
+      "views": 1800
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d7",
+      "title": "10 Tips for Boosting Productivity at Work",
+      "description": "Learn practical strategies to enhance your productivity and accomplish more at work.",
+      "image": "https://i.ibb.co/Mhh7z3C/productivity1.jpg",
+      "link": "https://example.com/news/article7",
+      "author": {
+         "name": "Michael Brown",
+         "image": "https://example.com/authors/michael_brown.jpg"
+      },
+      "category": "Productivity",
+      "postDate": "2023-06-22",
+      "postTime": "08:30 AM",
+      "views": 2800
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d8",
+      "title": "Top Travel Destinations for Adventure Seekers",
+      "description": "Embark on thrilling adventures with these amazing travel destinations around the world.",
+      "image": "https://i.ibb.co/Yd0nq3p/travel1.jpg",
+      "link": "https://example.com/news/article8",
+      "author": {
+         "name": "Jacob Wilson",
+         "image": "https://example.com/authors/jacob_wilson.jpg"
+      },
+      "category": "Travel",
+      "postDate": "2023-06-24",
+      "postTime": "11:45 AM",
+      "views": 3200
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d9",
+      "title": "Healthy and Delicious Smoothie Recipes",
+      "description": "Fuel your body with nutritious and tasty smoothie recipes for a vibrant and energetic lifestyle.",
+      "image": "https://i.ibb.co/ysk6DFG/food2.jpg",
+      "link": "https://example.com/news/article9",
+      "author": {
+         "name": "Sophia Carter",
+         "image": "https://example.com/authors/sophia_carter.jpg"
+      },
+      "category": "Food & Cooking",
+      "postDate": "2023-06-27",
+      "postTime": "03:15 PM",
+      "views": 1500
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7da",
+      "title": "Mindfulness Practices for Inner Peace",
+      "description": "Learn mindfulness techniques to cultivate inner peace, reduce stress, and enhance clarity of mind.",
+      "image": "https://i.ibb.co/gW8M2zG/wellness2.jpg",
+      "link": "https://example.com/news/article10",
+      "author": {
+         "name": "Olivia Anderson",
+         "image": "https://example.com/authors/olivia_anderson.jpg"
+      },
+      "category": "Wellness",
+      "postDate": "2023-06-29",
+      "postTime": "09:00 AM",
+      "views": 2100
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7db",
+      "title": "Effective Strategies for Time Management",
+      "description": "Master the art of time management with proven techniques to optimize your productivity.",
+      "image": "https://i.ibb.co/KbzjmyN/productivity2.jpg",
+      "link": "https://example.com/news/article11",
+      "author": {
+         "name": "Michael Brown",
+         "image": "https://example.com/authors/michael_brown.jpg"
+      },
+      "category": "Productivity",
+      "postDate": "2023-07-01",
+      "postTime": "10:30 AM",
+      "views": 2600
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7dc",
+      "title": "Hidden Gems: Unexplored Travel Destinations",
+      "description": "Uncover hidden gems and off-the-beaten-path destinations for a unique travel experience.",
+      "image": "https://i.ibb.co/VWb9GRG/travel2.jpg",
+      "link": "https://example.com/news/article12",
+      "author": {
+         "name": "Jacob Wilson",
+         "image": "https://example.com/authors/jacob_wilson.jpg"
+      },
+      "category": "Travel",
+      "postDate": "2023-07-03",
+      "postTime": "01:00 PM",
+      "views": 2900
    }
 ]

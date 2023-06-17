@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
    return (
-      <footer>
-         <div className="bg-dark text-light">
+      <footer className="bg-dark ">
+         <Container className="text-light">
             <Row>
                <Col className="py-3">
                   <Container>
@@ -43,11 +43,9 @@ const Footer = () => {
                   </Container>
                </Col>
             </Row>
-            <Row>
-               <Col className="text-center bg-secondary p-3">
-                  Copyright © 2023 - All right reserved by OST Placement Search Private Limited
-               </Col>
-            </Row>
+         </Container>
+         <div className="text-center bg-secondary text-white p-3">
+            Copyright © 2023 - All right reserved by OST Placement Search Private Limited
          </div>
       </footer>
    );
