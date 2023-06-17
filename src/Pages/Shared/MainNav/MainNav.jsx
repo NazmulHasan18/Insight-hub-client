@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 // todo: some work is off for now
 const MainNav = () => {
@@ -12,9 +13,36 @@ const MainNav = () => {
 
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                <Nav>
-                  <Nav.Link href="/">News Feed</Nav.Link>
-                  <Nav.Link href="#">Events </Nav.Link>
-                  <Nav.Link href="#">Jobs </Nav.Link>
+                  <NavLink
+                     to="/"
+                     className={({ isActive }) =>
+                        isActive
+                           ? "text-decoration-none me-3 text-white fw-semibold"
+                           : " text-decoration-none me-3 text-white opacity-75 fw-semibold"
+                     }
+                  >
+                     News Feed
+                  </NavLink>
+                  <NavLink
+                     to="/events"
+                     className={({ isActive }) =>
+                        isActive
+                           ? "text-decoration-none me-3 text-white fw-semibold"
+                           : " text-decoration-none me-3 text-white opacity-75 fw-semibold"
+                     }
+                  >
+                     Events{" "}
+                  </NavLink>
+                  <NavLink
+                     to="/jobs"
+                     className={({ isActive }) =>
+                        isActive
+                           ? "text-decoration-none me-3 text-white fw-semibold"
+                           : " text-decoration-none me-3 text-white opacity-75 fw-semibold"
+                     }
+                  >
+                     Jobs
+                  </NavLink>
                </Nav>
             </Navbar.Collapse>
          </Container>

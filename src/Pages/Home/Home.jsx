@@ -2,9 +2,10 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import moment from "moment";
 import PageTitle from "../Shared/PageTItle/PageTitle";
-import EventCard from "./EventCard";
+import HPEventCard from "./HPEventCard";
 import { Link } from "react-router-dom";
 import HPNewsFeed from "./HPNewsFeed";
+import HPJobCard from "./HPJobCard";
 
 const Home = () => {
    const [loading, setLoading] = useState(true);
@@ -48,7 +49,7 @@ const Home = () => {
                      })
                      .slice(0, 6)
                      .map((event, index) => (
-                        <EventCard key={index} event={event}></EventCard>
+                        <HPEventCard key={index} event={event}></HPEventCard>
                      ))}
                   <Link to="/events">
                      <Button className="w-100 rounded-top-0" variant="outline-secondary">
@@ -79,8 +80,8 @@ const Home = () => {
                         return dateB - dateA;
                      })
                      .slice(0, 6)
-                     .map((event, index) => (
-                        <EventCard key={index} event={event}></EventCard>
+                     .map((job, index) => (
+                        <HPJobCard key={index} job={job}></HPJobCard>
                      ))}
                   <Link to="/events">
                      <Button className="w-100 rounded-top-0" variant="outline-secondary">
