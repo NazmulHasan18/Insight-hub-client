@@ -1,0 +1,72 @@
+[
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d1",
+      "title": "Exciting New Discoveries in Technology",
+      "description": "Scientists make groundbreaking advancements in artificial intelligence and robotics.",
+      "image": "https://example.com/news/image1.jpg",
+      "link": "https://example.com/news/article1",
+      "author": {
+         "name": "John Doe",
+         "image": "https://example.com/authors/john_doe.jpg"
+      },
+      "postDate": "2023-06-15",
+      "postTime": "09:30 AM",
+      "views": 1500
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d2",
+      "title": "Healthy Living Tips for a Balanced Lifestyle",
+      "description": "Explore simple and effective ways to improve your overall well-being.",
+      "image": "https://example.com/news/image2.jpg",
+      "link": "https://example.com/news/article2",
+      "author": {
+         "name": "Jane Smith",
+         "image": "https://example.com/authors/jane_smith.jpg"
+      },
+      "postDate": "2023-06-14",
+      "postTime": "02:45 PM",
+      "views": 2500
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d3",
+      "title": "Fashion Trends for the Upcoming Season",
+      "description": "Stay ahead in style with the latest fashion trends and tips from industry experts.",
+      "image": "https://example.com/news/image3.jpg",
+      "link": "https://example.com/news/article3",
+      "author": {
+         "name": "Alex Johnson",
+         "image": "https://example.com/authors/alex_johnson.jpg"
+      },
+      "postDate": "2023-06-13",
+      "postTime": "11:15 AM",
+      "views": 3500
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d4",
+      "title": "Breaking News: Climate Change Summit Announced",
+      "description": "Global leaders to gather for a crucial summit addressing climate change issues.",
+      "image": "https://example.com/news/image4.jpg",
+      "link": "https://example.com/news/article4",
+      "author": {
+         "name": "Emily Davis",
+         "image": "https://example.com/authors/emily_davis.jpg"
+      },
+      "postDate": "2023-06-12",
+      "postTime": "04:20 PM",
+      "views": 4500
+   },
+   {
+      "_id": "60c5d28e7b17e42e7c44a7d5",
+      "title": "Exploring the Benefits of Meditation",
+      "description": "Discover the positive impact of meditation on mental health and overall well-being.",
+      "image": "https://example.com/news/image5.jpg",
+      "link": "https://example.com/news/article5",
+      "author": {
+         "name": "Mark Thompson",
+         "image": "https://example.com/authors/mark_thompson.jpg"
+      },
+      "postDate": "2023-06-14",
+      "postTime": "08:00 AM",
+      "views": 5500
+   }
+]

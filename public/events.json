@@ -1,0 +1,82 @@
+[
+   {
+      "title": "Tech Conference 2023",
+      "date": "2023-07-15",
+      "time": "10:00 AM",
+      "location": "San Francisco, CA",
+      "description": "Join industry leaders and tech enthusiasts for a conference showcasing the latest advancements in technology.",
+      "image": "https://example.com/events/conference.jpg"
+   },
+   {
+      "title": "Music Festival",
+      "date": "2023-08-05",
+      "time": "02:00 PM",
+      "location": "New York City, NY",
+      "description": "Experience a weekend filled with live music performances from top artists across various genres.",
+      "image": "https://example.com/events/music-festival.jpg"
+   },
+   {
+      "title": "Art Exhibition Opening",
+      "date": "2023-09-10",
+      "time": "06:00 PM",
+      "location": "London, UK",
+      "description": "Be part of the grand opening of a renowned art exhibition, featuring works from renowned artists around the world.",
+      "image": "https://example.com/events/art-exhibition.jpg"
+   },
+   {
+      "title": "Sports Championship",
+      "date": "2023-10-20",
+      "time": "11:00 AM",
+      "location": "Los Angeles, CA",
+      "description": "Witness the intense competition as top athletes compete for the championship title in a variety of sports.",
+      "image": "https://example.com/events/sports-championship.jpg"
+   },
+   {
+      "title": "Startup Pitch Competition",
+      "date": "2023-11-15",
+      "time": "03:00 PM",
+      "location": "Berlin, Germany",
+      "description": "Cheer on aspiring entrepreneurs as they present their innovative startup ideas to a panel of industry experts.",
+      "image": "https://example.com/events/pitch-competition.jpg"
+   },
+   {
+      "title": "Food Expo",
+      "date": "2023-07-30",
+      "time": "09:00 AM",
+      "location": "Tokyo, Japan",
+      "description": "Explore the diverse culinary delights at the largest international food expo, featuring cuisines from around the world.",
+      "image": "https://example.com/events/food-expo.jpg"
+   },
+   {
+      "title": "Film Festival",
+      "date": "2023-08-25",
+      "time": "01:00 PM",
+      "location": "Cannes, France",
+      "description": "Celebrate the art of cinema at an internationally acclaimed film festival, showcasing the best of contemporary filmmaking.",
+      "image": "https://example.com/events/film-festival.jpg"
+   },
+   {
+      "title": "Technology Summit",
+      "date": "2023-09-18",
+      "time": "10:30 AM",
+      "location": "Singapore",
+      "description": "Participate in a gathering of tech visionaries and industry experts, discussing the future of technology and its impact.",
+      "image": "https://example.com/events/technology-summit.jpg"
+   },
+   {
+      "title": "Fashion Week",
+      "date": "2023-10-10",
+      "time": "05:00 PM",
+      "location": "Paris, France",
+      "description": "Immerse yourself in the world of fashion with runway shows, designer presentations, and exclusive fashion events.",
+      "image": "https://example.com/events/fashion-week.jpg"
+   },
+   {
+      "title": "Science Conference",
+      "date": "2023-11-05",
+      "time": "10:30 AM",
+      "location": "Sydney, Australia",
+      "description": "Explore cutting-edge scientific research and breakthroughs at an international conference of leading scientists.",
+      "image": "https://example.com/events/science-conference.jpg"
+   }
+]

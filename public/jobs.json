@@ -1,0 +1,86 @@
+[
+   {
+      "title": "Software Engineer",
+      "company": "ABC Technologies",
+      "location": "San Francisco, CA",
+      "description": "We are seeking a talented software engineer to join our development team and contribute to the creation of cutting-edge software solutions.",
+      "requirements": [
+         "Bachelor's degree in Computer Science or related field",
+         "Proficiency in Java and JavaScript",
+         "Experience with cloud technologies"
+      ],
+      "salary": "$90,000 - $120,000 per year",
+      "deadline": "2023-07-30",
+      "circularDate": "2023-07-01"
+   },
+   {
+      "title": "Marketing Manager",
+      "company": "XYZ Corporation",
+      "location": "New York City, NY",
+      "description": "We are looking for a skilled marketing manager to develop and execute strategic marketing campaigns and drive brand awareness.",
+      "requirements": [
+         "Bachelor's degree in Marketing or related field",
+         "Strong communication and analytical skills",
+         "Experience in digital marketing"
+      ],
+      "salary": "$80,000 - $100,000 per year",
+      "deadline": "2023-08-15",
+      "circularDate": "2023-07-20"
+   },
+   {
+      "title": "Graphic Designer",
+      "company": "Design Studio Inc.",
+      "location": "Los Angeles, CA",
+      "description": "Join our creative team as a graphic designer and work on projects ranging from branding and marketing materials to web design and illustrations.",
+      "requirements": [
+         "Bachelor's degree in Graphic Design or related field",
+         "Proficiency in Adobe Creative Suite",
+         "Strong portfolio showcasing design skills"
+      ],
+      "salary": "$60,000 - $80,000 per year",
+      "deadline": "2023-07-25",
+      "circularDate": "2023-07-05"
+   },
+   {
+      "title": "Financial Analyst",
+      "company": "Global Investments LLC",
+      "location": "Chicago, IL",
+      "description": "We are seeking a detail-oriented financial analyst to provide accurate financial analysis and reporting to support decision-making processes.",
+      "requirements": [
+         "Bachelor's degree in Finance or related field",
+         "Strong analytical and problem-solving skills",
+         "Proficiency in financial modeling"
+      ],
+      "salary": "$70,000 - $90,000 per year",
+      "deadline": "2023-08-05",
+      "circularDate": "2023-07-15"
+   },
+   {
+      "title": "Sales Representative",
+      "company": "SalesForce Corp",
+      "location": "Seattle, WA",
+      "description": "Join our sales team and drive revenue growth by identifying and acquiring new customers, as well as nurturing existing client relationships.",
+      "requirements": [
+         "Bachelor's degree in Business or related field",
+         "Excellent communication and negotiation skills",
+         "Previous sales experience"
+      ],
+      "salary": "$50,000 - $70,000 per year",
+      "deadline": "2023-08-10",
+      "circularDate": "2023-07-18"
+   },
+   {
+      "title": "Human Resources Manager",
+      "company": "PeopleFirst Inc.",
+      "location": "Miami, FL",
+      "description": "We are looking for an experienced HR manager to oversee all aspects of human resources, including recruitment, employee relations, and performance management.",
+      "requirements": [
+         "Bachelor's degree in Human Resources or related field",
+         "Knowledge of labor laws and regulations",
+         "Strong interpersonal skills"
+      ],
+      "salary": "$80,000 - $100,000 per year",
+      "deadline": "2023-07-31",
+      "circularDate": "2023-07-10"
+   }
+]
